@@ -30,7 +30,7 @@ optionListOrder.addEventListener('click', (event) => {
     }
 })
 
-// !!! Выпадающий список Период
+//Выпадающий список Период
 
 optionListPeriod.addEventListener('click', (event) => {
     const target = event.target;
@@ -68,7 +68,7 @@ cityRegionList.addEventListener('click', (event) => {
     }
 });
 
-// !!!закрытие городов
+//закрытие городов
 
 cityClose.addEventListener('click', () => {
     city.classList.remove('city_active');
